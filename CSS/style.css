@@ -125,11 +125,16 @@ header {
     position: relative;
 }
 .portraitForm .left .portraitBlog{
-    padding-left: 0;
+    padding: 0;
 }
-.portraitForm .left .portraitBlog .rowUp{
+/*.portraitForm .left .portraitBlog .rowUp{
     border-bottom: 1px solid #4b4d4f;
 
+
+}*/
+.portraitForm .left .portraitBlog   .portrait
+{
+    padding-right: 0;
 }
 .portraitForm .left .portraitBlog   .portrait a{
     position: absolute;
@@ -147,6 +152,11 @@ header {
     text-align: left;
     text-transform: uppercase;
 }
+.portraitForm .left .portraitBlog  .BlogUp{
+    border-bottom: 1px solid #4b4d4f;
+
+}
+
 .portraitForm .left .portraitBlog  .BlogUp  h4{
     margin-top: 20px;
 }
@@ -167,7 +177,7 @@ header {
     font-weight: 400;
     line-height: 20px;
     text-align: left;
-    margin-bottom: 26px;
+    margin-bottom: 15px;
 }
 .portraitForm .left .portraitBlog .BlogUp  a, .portraitForm .left .portraitBlog .BlogDown a{
     border: 1px solid #4b4d4f ;
@@ -178,6 +188,8 @@ header {
     text-align: left;
     padding: 9px;
     text-decoration: none;
+   m
+
 }
 .portraitForm .left .portraitBlog .BlogUp  a .fa-plus-circle, .portraitForm .left .portraitBlog .BlogDown  a .fa-plus-circle{
     color: #c33737;
@@ -186,11 +198,11 @@ header {
 .portraitForm .left .portraitBlog  .BlogDown  h4{
     margin-top: 10px;
 }
-.portraitForm .left .portraitBlog .rowDown{
 
-}
 .portraitForm .left .line{
     margin-top: 20px;
+    position: absolute;
+    right: -17px;
 }
 @media (max-width: 1200px) {
     .portraitForm .left .line {
@@ -204,7 +216,7 @@ header {
     background-color: #c33737;
     padding-left: 30px;
     padding-right: 30px;
-    margin-top: 38px;
+    margin-top: 40px;
 
 }
 .portraitForm .right .form h3{
@@ -237,7 +249,7 @@ header {
     text-align: left;
     text-transform: uppercase;
     background-color:#c33737;
-    margin-bottom: 40px;
+    margin-bottom: 47px;
     border-color: #d66767;
     border-radius: 0;
 }
