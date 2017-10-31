@@ -93,6 +93,7 @@ header {
     width: 84px;
     height: 84px;
     color: #c33737;
+
 }
 .icons .icon i {
     margin: auto;
@@ -127,13 +128,7 @@ header {
 .portraitForm .left .portraitBlog{
     padding: 0;
 }
-/*.portraitForm .left .portraitBlog .rowUp{
-    border-bottom: 1px solid #4b4d4f;
-
-
-}*/
-.portraitForm .left .portraitBlog   .portrait
-{
+.portraitForm .left .portraitBlog   .portrait{
     padding-right: 0;
 }
 .portraitForm .left .portraitBlog   .portrait a{
@@ -151,10 +146,6 @@ header {
     font-weight: 700;
     text-align: left;
     text-transform: uppercase;
-}
-.portraitForm .left .portraitBlog  .BlogUp{
-    border-bottom: 1px solid #4b4d4f;
-
 }
 
 .portraitForm .left .portraitBlog  .BlogUp  h4{
@@ -188,8 +179,6 @@ header {
     text-align: left;
     padding: 9px;
     text-decoration: none;
-   m
-
 }
 .portraitForm .left .portraitBlog .BlogUp  a .fa-plus-circle, .portraitForm .left .portraitBlog .BlogDown  a .fa-plus-circle{
     color: #c33737;
@@ -352,7 +341,7 @@ header {
 }
 /*newsBlogLorem section end*/
 
-/*footer section start*/
+/*aside section  start*/
 aside {
     background-color: #2f3234;
     margin-top: 60px;
@@ -376,7 +365,7 @@ aside  h5 {
     text-align: left;
     margin-top: 0;
 }
-aside    a{
+aside a{
     border: 1px solid #4b4d4f ;
     color:  #ffffff;
     font-size: 14px;
@@ -384,12 +373,18 @@ aside    a{
     line-height: 20px;
     text-align: left;
     padding: 5px;
-    text-decoration: none;
+    text-decoration: none !important;
+}
+aside a:hover{
+    color: #c33737;
 }
 aside  a .fa-plus-circle{
     color: #c33737;
     padding-left: 5px;
 }
+/*aside section end*/
+
+/*footer section start*/
 footer  {
     background-color: #26282a;
 }
