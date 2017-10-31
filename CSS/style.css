@@ -8,23 +8,19 @@ body {
 header {
     margin-top: 51px;
 }
-
-.nav nav {
-    border: 1px solid #bcbcbc;
+.head-section .navbar-default .navbar-header .navbar-brand{
+    padding-top: 0;!important;
 }
-.nav nav ul {
-    margin: 0;
-    padding: 0;
+.head-section .navbar-default .collapse  ul.nav li{
+    border: 1px solid #bcbcbc;!important;
 }
-.nav nav li:first-child {
-    border: none;
+.navbar-default .navbar-collapse{
+    border: none; !important;
 }
-.nav nav li {
-    border-left: 1px solid #bcbcbc;
-    text-align: center;
-    padding: 0;
+.navbar-default .navbar-collapse.collapse.in{
+    padding-top: 15px;
 }
-.nav nav a {
+.head-section .navbar-default .navbar-collapse  ul.navbar-nav li a{
     font-size: 14px;
     color: #585858;
     text-decoration: none;
@@ -32,7 +28,14 @@ header {
     display: inline-block;
     padding: 2rem 1rem;
 }
-/*Header section end*/
+.head-section .navbar-default .collapse  ul.navbar-nav li a:hover{
+    color: #c33737;
+}
+.head-section .navbar-default{
+    background: url("../img/bg.png");!important;
+    border: none;
+}
+/*header section end*/
 
 
 /*slider section start*/
@@ -93,7 +96,6 @@ header {
     width: 84px;
     height: 84px;
     color: #c33737;
-
 }
 .icons .icon i {
     margin: auto;
@@ -147,11 +149,9 @@ header {
     text-align: left;
     text-transform: uppercase;
 }
-
 .portraitForm .left .portraitBlog  .BlogUp  h4{
     margin-top: 20px;
 }
-
 .portraitForm .left .portraitBlog .BlogUp  h5, .portraitForm .left .portraitBlog .BlogDown h5{
     color:  #c33737;
     font-size: 20px;
@@ -160,7 +160,6 @@ header {
     margin-bottom: 13px;
     margin-top: 0;
 }
-
 .portraitForm .left .portraitBlog .BlogUp  h6, .portraitForm .left .portraitBlog .BlogDown h6{
     font-family: 'Source Sans Pro', sans-serif;
     color:  #6d6f71;
@@ -187,16 +186,10 @@ header {
 .portraitForm .left .portraitBlog  .BlogDown  h4{
     margin-top: 10px;
 }
-
 .portraitForm .left .line{
     margin-top: 20px;
     position: absolute;
     right: -17px;
-}
-@media (max-width: 1200px) {
-    .portraitForm .left .line {
-        display: none;
-    }
 }
 .portraitForm .right{
     padding: 0;
@@ -206,7 +199,6 @@ header {
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 40px;
-
 }
 .portraitForm .right .form h3{
     padding-top: 40px;
@@ -319,7 +311,6 @@ header {
     font-weight: 300;
     text-align: left;
     padding-bottom:10px;
-
 }
 .newsBlogLorem .lorem .rowDownLoremIpsum  ul{
     list-style-type: none
@@ -403,3 +394,128 @@ footer  h5 span{
     line-height: 26px;
 }
 /*footer section end*/
+
+
+@media  (max-width: 375px){
+    .newsBlogLorem .lorem .rowDownLoremIpsum  ul {
+        padding-left: 5px;
+    }
+    .newsBlogLorem .lorem .rowDownLoremIpsum  ul li{
+        font-size: 13px;
+    }
+}
+@media (max-width: 680px ) {
+    .slider .text{
+        display: none;
+    }
+    .icons .left{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+
+    }
+    .icons .right h3{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .icons .right h4{
+        text-align: center;
+    }
+    .portraitForm .left .portraitBlog .rowUp .portrait{
+        margin: 0 auto ;
+    }
+    .portraitForm .left .portraitBlog .rowUp .BlogUp h4,.portraitForm .left .portraitBlog .rowUp .BlogUp h5, .portraitForm .left .portraitBlog .rowUp .BlogUp h6{
+        text-align: center;
+    }
+    .portraitForm .left .portraitBlog .rowDown .BlogDown h4,.portraitForm .left .portraitBlog .rowDown .BlogDown h5, .portraitForm .left .portraitBlog .rowDown .BlogDown h6{
+        text-align: center;
+    }
+    .portraitForm .left .portraitBlog .rowUp .BlogUp  {
+        padding-bottom: 20px;
+    }
+    .portraitForm .left .portraitBlog .rowDown .BlogDown  {
+        padding-bottom: 20px;
+    }
+    .portraitForm .left .portraitBlog .rowUp .portrait,.portraitForm .left .portraitBlog .rowDown .portrait{
+        display: flex;
+
+    }
+    .portraitForm .left .portraitBlog .rowUp .portrait img,.portraitForm .left .portraitBlog .rowDown .portrait img{
+        margin: 0 auto;
+    }
+    .portraitForm .left .portraitBlog .rowUp .portrait a,.portraitForm .left .portraitBlog .rowDown .portrait a{
+        display: none;
+    }
+}
+@media (min-width: 681px) and (max-width: 991px){
+    .icons .left{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .icons .right h3{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .icons .right h4{
+        text-align: center;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .icons .icon {
+        width: 64px;
+        height: 64px;
+    }
+    .portraitForm .right .form{
+        margin-top: 0;
+    }
+    .portraitForm .right .form .btn-default {
+        margin-bottom: 20px;
+    }
+    .portraitForm .left .portraitBlog  .BlogUp  h4, .portraitForm .left .portraitBlog  .BlogDown  h4{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .portraitForm .left .portraitBlog .BlogUp  h5,.portraitForm .left .portraitBlog  .BlogDown  h5 {
+        margin-bottom: 0;
+    }
+    .portraitForm .left .portraitBlog .BlogUp  h6,.portraitForm .left .portraitBlog .BlogDown  h6{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .portraitForm .right .form h3{
+        padding-top: 10px;
+    }
+}
+@media (min-width: 681px) and (max-width: 768px) {
+    .portraitForm .left .portraitBlog .rowDown .BlogDown {
+        padding-bottom: 20px;
+    }
+
+    .portraitForm .left .portraitBlog .rowUp .portrait {
+        float: left;
+        padding-right: 10px;
+    }
+    .portraitForm .left .portraitBlog .rowDown .portrait {
+        float: left;
+        padding-right: 10px;
+    }
+}
+@media  (max-width: 991px){
+    .newsBlogLorem h3{
+        text-align: center;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .newsBlogLorem .lorem .rowDownLoremIpsum  ul {
+       padding-left: 20px;
+    }
+    .newsBlogLorem .lorem .rowDownLoremIpsum  ul li{
+       font-size: 13px;
+    }
+}
+@media (max-width: 1200px) {
+    .portraitForm .left .line {
+        display: none;
+    }
+}
