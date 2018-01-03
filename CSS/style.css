@@ -8,11 +8,17 @@ body {
 header {
     margin-top: 51px;
 }
+.head-section .navbar-default{
+    width: 100%;
+}
 .head-section .navbar-default .navbar-header .navbar-brand{
     padding-top: 0;!important;
 }
 .head-section .navbar-default .collapse  ul.nav li{
     border: 1px solid #bcbcbc;!important;
+}
+.head-section .navbar-default .collapse  ul.nav {
+    margin-right: 0; !important;
 }
 .navbar-default .navbar-collapse{
     border: none; !important;
